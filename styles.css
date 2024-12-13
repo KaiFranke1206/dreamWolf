@@ -1,0 +1,163 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: linear-gradient(180deg, #1a1a2e, #16213e);
+    color: #ffffff;
+}
+
+/* Header Styling */
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: linear-gradient(90deg, #6a0572, #290c77);
+    color: white;
+}
+
+.heading a {
+    color: #f0f0f0;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.buch {
+	height: 300px;
+}
+
+.logo {
+    height: 60px;
+}
+
+/* Hero Section Styling */
+.hero {
+    text-align: center;
+    padding: 4rem 1rem;
+    background: linear-gradient(90deg, #6a0572, #3d2c8d, #290c77);
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #ffeb3b;
+    text-shadow: 2px 2px #290c77;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    color: #e0e0e0;
+}
+
+/* Section Styling */
+section {
+    padding: 3rem 2rem;
+}
+
+.about, .projects, .contact {
+    background: #290c77;
+    margin: 1rem auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.about h1, .projects h1, .contact h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #ffeb3b;
+}
+
+/* Projects Section */
+.projects ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.projects ul li {
+    margin-bottom: 1.5rem;
+    background: #3d2c8d;
+    padding: 1rem;
+    border-radius: 8px;
+    color: white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.projects ul li h2 {
+    color: #ffeb3b;
+}
+
+.projects ul li p {
+    color: #e0e0e0;
+}
+
+.profile {
+	text-align: center;
+	margin: 0 auto;
+	border: 5px solid #ffffff;
+}
+
+/* Contact Section */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: #3d2c8d;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+form label {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: #ffeb3b;
+}
+
+form input, form textarea, form button {
+    margin-top: 0.5rem;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+form input, form textarea {
+    background: #290c77;
+    color: #ffffff;
+    outline: none;
+    border: 1px solid #6a0572;
+}
+
+form button {
+    background: #6a0572;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: #ffeb3b;
+    color: #290c77;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #1a1a2e;
+    color: #ffffff;
+    border-top: 1px solid #6a0572;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
